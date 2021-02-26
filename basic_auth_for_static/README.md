@@ -15,7 +15,7 @@ Be sure to create it in <strong>the US East (N. Virginia) Region</strong>.
 
 :warning: Lambda@Edge is only supported in the US East (N. Virginia) Region.
 
-```index.js
+```javascript:index.js
 'use strict';
 exports.handler = (event, context, callback) => {
 
@@ -61,5 +61,4 @@ Select your Cloudfront distribution as "Distribution".
 [Behaviors]-[Edit]
 
 Make sure that the ARN of the Lambda＠Edge you created is set in Lambda Function Associations
-
 
