@@ -3,6 +3,8 @@ Apply basic authentication to static web pages delivered by AWS CloudFront.
 
 # constitution
 
+![BasicAuth](https://user-images.githubusercontent.com/72424558/109291376-3ec79380-786c-11eb-8971-63e4a9b4a70d.png)
+
 
 # how to setup
 
