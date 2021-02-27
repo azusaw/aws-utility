@@ -12,4 +12,4 @@ Write down my AWS construction and usage examples
 
 ### Rambda
 * [MS Teams notification of the execution result of CodePipeline](notification_to_teams/README.md)
-* [Email notification and auto reply triggered by form submission](notification_and_auto_reply/README.md)
+* [Send Email triggered by form submission](send_email_api/README.md)
