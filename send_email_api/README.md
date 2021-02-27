@@ -115,3 +115,36 @@ OPTIONS method is used pre-flight request.
 |---|---|
 |application/json|Empty|
 
+
+# call by program
+Vue example
+
+```
+send() {
+      this.isSendButtonClicked = true;
+      const formData = {
+        page: 'contact',
+        name: this.name,
+        email: this.email,
+        phoneNumber: this.phoneNumber,
+        contactType: this.select,
+        company: this.company,
+        department: this.department,
+        details: this.text
+      }
+
+      fetch('https://hogehoge.execute-api.your-region.amazonaws.com/v1/sendContactEmail',
+        {
+          method: 'POST',
+          mode: 'cors',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(formData)
+         })
+        .then((response) => {
+          this.$router.push('/contact-success');
+        })
+        .catch((error) => {
+          this.$router.push('/contact-failure');
+        });
+    }
+```
