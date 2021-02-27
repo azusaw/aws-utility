@@ -61,4 +61,4 @@ Set the following to environment variables of Lambda.
 
 #### 4. Setting SNS topic as the trigger
 
-Add create SNS topic as the trigger.
+Add created SNS topic as the trigger.
