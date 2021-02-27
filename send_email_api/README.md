@@ -3,6 +3,7 @@
 Send an email when the contact form on the website submitted
 
 # constitution
+![SendEmail](https://user-images.githubusercontent.com/72424558/109382684-4d25b600-7925-11eb-9cbe-4a656bf6c71d.png)
 
 
 # how to setup
@@ -20,7 +21,7 @@ Set a descriptive name. Like: sendContactEmail
 
 Select 'Node.js 12.x' for runntime.
 
-```javascritp:index.js
+```javascript:index.js
 'use strict'
 const SDK = require('aws-sdk');
 
