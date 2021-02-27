@@ -43,7 +43,7 @@ Like: codepipeline-finish-notification
 #### 1. Create Lambda fnuction
 
 Set a descriptive name.
-Like: CodePipelineNotificationToMsTeams
+Like: codePipelineNotificationToMsTeams
 
 Select 'Python 3.8' for runntime.
 
